@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar */
+#header .navbar {
+	width: 100%;
+    padding: 20px;
+
+    background-color: red;
+	display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul a {
+    font-weight: bolder;
+	color: white;
+    padding: 10px 75px;
+	text-decoration: none;
+}
+/* Navbar */
+
+.home{
+    padding-top: 85px;
+}
+
+/* skills */
+#skills .skills-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills .skills-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px 25px 25px 25px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease box-shadow;
+}
+
+#skills .skills-item:hover{
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.25);
+}
+/* end skills */
+
+/* project work */
+#project .project{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#project .project-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#project .project-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 50px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease box-shadow;
+}
+
+#project .project-item:hover{
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+#project .project-title, .project-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#project h1, p{
+    margin-left: 10px;
+}
+/* end project work */
+
+/* contact */
+#contact .contact-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .contact-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px 10px 50px 50px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease box-shadow;
+}
+
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.email{
+    text-decoration: none;
+    color: black;
+}
+
+#contact .contact-icon{
+    height: 75px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#contact .contact-info h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+/* end contact */
+
+/* footer */
+#footer{
+    background-color: rgba(119, 136, 153, 0.6);
+}
+
+#footer .footer{
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#footer .social-items{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .social-icon img{
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    transition: 0.1s ease box-shadow;
+}
+
+#footer .social-icon:hover img{
+    box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.25);
+}
+/* end footer */
